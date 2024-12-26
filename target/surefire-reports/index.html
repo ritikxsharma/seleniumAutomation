@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Cross_Platform" class="navigator-link">
+              <span class="suite-name border-passed">Cross-Platform</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Cross_Platform" class="navigator-link ">
+                    <span>C:\BrowserStack\Automation\selenium-automation\src\config\remoteTestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Cross_Platform" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Cross_Platform" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Cross_Platform" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Cross_Platform" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Cross_Platform" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Cross_Platform" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Cross_Platform" class="hide-methods passed suite-Cross_Platform"> (hide)</a> <!-- hide-methods passed suite-Cross_Platform -->
+                      <a href="#" panel-name="suite-Cross_Platform" class="show-methods passed suite-Cross_Platform"> (show)</a> <!-- show-methods passed suite-Cross_Platform -->
+                    </span>
+                    <div class="method-list-content passed suite-Cross_Platform">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_Platform" title="com.selenium.automation.tests.ElPaisTest" class="method navigator-link" hash-for-method="testAnalyzeTranslatedArticlesHeaders">testAnalyzeTranslatedArticlesHeaders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_Platform" title="com.selenium.automation.tests.ElPaisTest" class="method navigator-link" hash-for-method="testCheckForStartingImage">testCheckForStartingImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_Platform" title="com.selenium.automation.tests.ElPaisTest" class="method navigator-link" hash-for-method="testGetArticles">testGetArticles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_Platform" title="com.selenium.automation.tests.ElPaisTest" class="method navigator-link" hash-for-method="testGetEnglishTranslatedArticles">testGetEnglishTranslatedArticles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_Platform" title="com.selenium.automation.tests.ElPaisTest" class="method navigator-link" hash-for-method="testNavigateToOpinionSection">testNavigateToOpinionSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_Platform" title="com.selenium.automation.tests.ElPaisTest" class="method navigator-link" hash-for-method="testPageTitle">testPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Cross_Platform -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Cross_Platform" class="panel Cross_Platform">
+          <div class="suite-Cross_Platform-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.automation.tests.ElPaisTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAnalyzeTranslatedArticlesHeaders">
+                  </a> <!-- testAnalyzeTranslatedArticlesHeaders -->
+                  <span class="method-name">testAnalyzeTranslatedArticlesHeaders</span>
+                  <em>
+(Analzying occurences of words in headers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckForStartingImage">
+                  </a> <!-- testCheckForStartingImage -->
+                  <span class="method-name">testCheckForStartingImage</span>
+                  <em>
+(Checking starting image is displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetArticles">
+                  </a> <!-- testGetArticles -->
+                  <span class="method-name">testGetArticles</span>
+                  <em>
+(Fetching first 5 articles)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetEnglishTranslatedArticles">
+                  </a> <!-- testGetEnglishTranslatedArticles -->
+                  <span class="method-name">testGetEnglishTranslatedArticles</span>
+                  <em>
+(Translating the fetched articles to English)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigateToOpinionSection">
+                  </a> <!-- testNavigateToOpinionSection -->
+                  <span class="method-name">testNavigateToOpinionSection</span>
+                  <em>
+(Moving to opinion section of the page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPageTitle">
+                  </a> <!-- testPageTitle -->
+                  <span class="method-name">testPageTitle</span>
+                  <em>
+(Checking page title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_Platform-class-passed -->
+        </div> <!-- panel Cross_Platform -->
+        <div panel-name="test-xml-Cross_Platform" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\BrowserStack\Automation\selenium-automation\src\config\remoteTestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Cross-Platform&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Selenium Test-0&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;0&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.automation.tests.ElPaisTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Selenium Test-0 --&gt;
+&lt;/suite&gt; &lt;!-- Cross-Platform --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Cross_Platform" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Cross-Platform</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Selenium Test-0 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Cross_Platform" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Cross-Platform</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Cross_Platform" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Cross-Platform</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Cross_Platform');
+function tableData_Cross_Platform() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testNavigateToOpinionSection')
+data.setCell(0, 2, 'com.selenium.automation.tests.ElPaisTest')
+data.setCell(0, 3, 15748);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGetArticles')
+data.setCell(1, 2, 'com.selenium.automation.tests.ElPaisTest')
+data.setCell(1, 3, 4034);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testPageTitle')
+data.setCell(2, 2, 'com.selenium.automation.tests.ElPaisTest')
+data.setCell(2, 3, 3207);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testGetEnglishTranslatedArticles')
+data.setCell(3, 2, 'com.selenium.automation.tests.ElPaisTest')
+data.setCell(3, 3, 1296);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCheckForStartingImage')
+data.setCell(4, 2, 'com.selenium.automation.tests.ElPaisTest')
+data.setCell(4, 3, 102);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testAnalyzeTranslatedArticlesHeaders')
+data.setCell(5, 2, 'com.selenium.automation.tests.ElPaisTest')
+data.setCell(5, 3, 16);
+window.suiteTableData['Cross_Platform']= { tableData: data, tableDiv: 'times-div-Cross_Platform'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 55 seconds</span>
+              <div id="times-div-Cross_Platform">
+              </div> <!-- times-div-Cross_Platform -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Cross_Platform" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Cross-Platform</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Cross_Platform" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Cross_Platform" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.automation.tests.ElPaisTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=ElPaisTest.testPageTitle()[pri:0, instance:com.seleniu...)</span>
+                <span class="method-start">29194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPageTitle</span>
+                <span class="method-start">29217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testPageTitle status=SUCCESS method=ElPaisTest.testPageTitle()[pri:0, instance:com....)</span>
+                <span class="method-start">32451 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=ElPaisTest.testCheckForStartingImage()[pri:1, instance...)</span>
+                <span class="method-start">32477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckForStartingImage</span>
+                <span class="method-start">32490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testCheckForStartingImage status=SUCCESS method=ElPaisTest.testCheckForStartingImag...)</span>
+                <span class="method-start">32608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=ElPaisTest.testNavigateToOpinionSection()[pri:2, insta...)</span>
+                <span class="method-start">32623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigateToOpinionSection</span>
+                <span class="method-start">32636 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testNavigateToOpinionSection status=SUCCESS method=ElPaisTest.testNavigateToOpinion...)</span>
+                <span class="method-start">48400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=ElPaisTest.testGetArticles()[pri:3, instance:com.selen...)</span>
+                <span class="method-start">48415 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetArticles</span>
+                <span class="method-start">48427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testGetArticles status=SUCCESS method=ElPaisTest.testGetArticles()[pri:3, instance:...)</span>
+                <span class="method-start">52486 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=ElPaisTest.testGetEnglishTranslatedArticles()[pri:4, i...)</span>
+                <span class="method-start">52506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetEnglishTranslatedArticles</span>
+                <span class="method-start">52520 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testGetEnglishTranslatedArticles status=SUCCESS method=ElPaisTest.testGetEnglishTra...)</span>
+                <span class="method-start">53836 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=ElPaisTest.testAnalyzeTranslatedArticlesHeaders()[pri:...)</span>
+                <span class="method-start">53857 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAnalyzeTranslatedArticlesHeaders</span>
+                <span class="method-start">53871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testAnalyzeTranslatedArticlesHeaders status=SUCCESS method=ElPaisTest.testAnalyzeTr...)</span>
+                <span class="method-start">53912 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53930 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

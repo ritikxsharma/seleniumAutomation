@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-25T23:10:06 IST" name="Cross-Platform" finished-at="2024-12-25T23:11:02 IST" duration-ms="55275">
+    <groups>
+    </groups>
+    <test started-at="2024-12-25T23:10:06 IST" name="Selenium Test-0" finished-at="2024-12-25T23:11:02 IST" duration-ms="55275">
+      <class name="com.selenium.automation.tests.ElPaisTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:06 IST" name="setup" finished-at="2024-12-25T23:10:36 IST" duration-ms="29185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:36 IST" name="beforeMethod" finished-at="2024-12-25T23:10:36 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ElPaisTest.testPageTitle()[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testPageTitle()[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:36 IST" name="testPageTitle" description="Checking page title" finished-at="2024-12-25T23:10:39 IST" duration-ms="3207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitle -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:39 IST" name="afterMethod" finished-at="2024-12-25T23:10:39 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPageTitle status=SUCCESS method=ElPaisTest.testPageTitle()[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:39 IST" name="beforeMethod" finished-at="2024-12-25T23:10:39 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ElPaisTest.testCheckForStartingImage()[pri:1, instance:com.selenium.automation.tests.ElPaisTest@2ec99035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCheckForStartingImage()[pri:1, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:39 IST" name="testCheckForStartingImage" description="Checking starting image is displayed" finished-at="2024-12-25T23:10:39 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckForStartingImage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:39 IST" name="afterMethod" finished-at="2024-12-25T23:10:39 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckForStartingImage status=SUCCESS method=ElPaisTest.testCheckForStartingImage()[pri:1, instance:com.selenium.automation.tests.ElPaisTest@2ec99035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:39 IST" name="beforeMethod" finished-at="2024-12-25T23:10:39 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ElPaisTest.testNavigateToOpinionSection()[pri:2, instance:com.selenium.automation.tests.ElPaisTest@2ec99035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testNavigateToOpinionSection()[pri:2, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:39 IST" name="testNavigateToOpinionSection" description="Moving to opinion section of the page" finished-at="2024-12-25T23:10:55 IST" duration-ms="15748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToOpinionSection -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:55 IST" name="afterMethod" finished-at="2024-12-25T23:10:55 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNavigateToOpinionSection status=SUCCESS method=ElPaisTest.testNavigateToOpinionSection()[pri:2, instance:com.selenium.automation.tests.ElPaisTest@2ec99035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:55 IST" name="beforeMethod" finished-at="2024-12-25T23:10:55 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ElPaisTest.testGetArticles()[pri:3, instance:com.selenium.automation.tests.ElPaisTest@2ec99035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetArticles()[pri:3, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:55 IST" name="testGetArticles" description="Fetching first 5 articles" finished-at="2024-12-25T23:10:59 IST" duration-ms="4034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetArticles -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:59 IST" name="afterMethod" finished-at="2024-12-25T23:10:59 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetArticles status=SUCCESS method=ElPaisTest.testGetArticles()[pri:3, instance:com.selenium.automation.tests.ElPaisTest@2ec99035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:59 IST" name="beforeMethod" finished-at="2024-12-25T23:10:59 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ElPaisTest.testGetEnglishTranslatedArticles()[pri:4, instance:com.selenium.automation.tests.ElPaisTest@2ec99035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetEnglishTranslatedArticles()[pri:4, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:10:59 IST" name="testGetEnglishTranslatedArticles" description="Translating the fetched articles to English" finished-at="2024-12-25T23:11:00 IST" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEnglishTranslatedArticles -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:11:00 IST" name="afterMethod" finished-at="2024-12-25T23:11:00 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetEnglishTranslatedArticles status=SUCCESS method=ElPaisTest.testGetEnglishTranslatedArticles()[pri:4, instance:com.selenium.automation.tests.ElPaisTest@2ec99035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:11:00 IST" name="beforeMethod" finished-at="2024-12-25T23:11:00 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ElPaisTest.testAnalyzeTranslatedArticlesHeaders()[pri:5, instance:com.selenium.automation.tests.ElPaisTest@2ec99035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAnalyzeTranslatedArticlesHeaders()[pri:5, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:11:00 IST" name="testAnalyzeTranslatedArticlesHeaders" description="Analzying occurences of words in headers" finished-at="2024-12-25T23:11:00 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAnalyzeTranslatedArticlesHeaders -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:11:00 IST" name="afterMethod" finished-at="2024-12-25T23:11:00 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAnalyzeTranslatedArticlesHeaders status=SUCCESS method=ElPaisTest.testAnalyzeTranslatedArticlesHeaders()[pri:5, instance:com.selenium.automation.tests.ElPaisTest@2ec99035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.automation.tests.ElPaisTest@2ec99035]" started-at="2024-12-25T23:11:00 IST" name="tearDown" finished-at="2024-12-25T23:11:02 IST" duration-ms="1329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.automation.tests.ElPaisTest -->
+    </test> <!-- Selenium Test-0 -->
+  </suite> <!-- Cross-Platform -->
+</testng-results>

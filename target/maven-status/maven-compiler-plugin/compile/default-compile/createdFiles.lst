@@ -1,0 +1,5 @@
+com\selenium\automation\pages\ElPaisPage.class
+com\selenium\automation\utils\GeneralHelper.class
+com\selenium\automation\utils\TranslateText.class
+com\selenium\automation\driverManager\DriverManager.class
+com\selenium\automation\pages\BasePage.class

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Local">
+    <test name="Selenium Test">
+        <classes>
+            <class name="com.selenium.automation.tests.ElPaisTest" />
+        </classes>
+    </test>
+</suite>
